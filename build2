@@ -1,0 +1,4 @@
+echo "Compile for Address data print"
+arm-linux-gnueabihf-g++ main2.cpp -o main2 SimpleGPI_SPI.cpp
+
+
