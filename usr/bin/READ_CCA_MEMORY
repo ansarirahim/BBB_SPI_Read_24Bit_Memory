@@ -1,0 +1,8 @@
+#!/bin/bash
+/root/CRc41Flash/main2 "$@"
+#Bin command format :
+# READ_CCA_MEMORY <EXTENDED 8-BIT ADDRESS VALUE> <PAGE NO. 8 BIT VALUE>  <DATA STARTING INDEX 8-BIT> <EXTRACT NO. OF DATA BYTES NOT MORE THAN 256>
+#Example
+#/root/CRc41Flash/main2 5 87 0 0 20
+#READ_CCA_MEMORY 5 87 0 0 20
+
